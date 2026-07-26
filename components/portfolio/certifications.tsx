@@ -58,24 +58,22 @@ export function Certifications() {
       <Modal open={active !== null} onClose={() => setActive(null)} labelledBy="cert-modal-title">
         {active && (
           <div className="p-6 sm:p-8 lg:p-10">
-            <div className="flex flex-col items-center gap-6 text-center sm:flex-row sm:items-start sm:text-left">
-              <span className="flex h-36 w-36 shrink-0 items-center justify-center overflow-hidden rounded-2xl border border-border bg-accent/40 sm:h-44 sm:w-44">
+            <div className="overflow-hidden rounded-2xl border border-border bg-accent/40">
                 <Image
                   src={active.image || "/placeholder.svg"}
-                  alt={`Lencana ${active.name}`}
-                  width={176}
-                  height={176}
-                  className="h-full w-full object-cover"
+                  alt={`Sertifikat ${active.name}`}
+                  width={1600}
+                  height={1000}
+                  className="h-auto max-h-[62vh] w-full object-contain"
                 />
-              </span>
-              <div className="w-full">
-                <p className="text-xs font-medium uppercase tracking-wider text-primary">
-                  {active.issuer} &middot; {active.year}
-                </p>
-                <h3 id="cert-modal-title" className="mt-2 font-serif text-2xl font-semibold text-balance sm:text-3xl">
-                  {active.name}
-                </h3>
-              </div>
+            </div>
+            <div className="mt-6">
+              <p className="text-xs font-medium uppercase tracking-wider text-primary">
+                {active.issuer} &middot; {active.year}
+              </p>
+              <h3 id="cert-modal-title" className="mt-2 font-serif text-2xl font-semibold text-balance sm:text-3xl">
+                {active.name}
+              </h3>
             </div>
             <p className="mt-8 max-w-3xl text-pretty text-sm leading-relaxed text-muted-foreground sm:text-base">
               {active.description}
