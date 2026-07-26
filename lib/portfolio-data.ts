@@ -43,7 +43,7 @@ export const summary = {
     },
     {
       value: "4",
-      label: "Professional Experiences",
+      label: "Intern Experiences",
     },
   ],
 }
