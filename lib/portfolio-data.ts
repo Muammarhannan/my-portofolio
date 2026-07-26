@@ -1,5 +1,5 @@
 export const profile = {
-  name: "Mu'Ammar Hannan Najib",
+  name: "Hannan Najib",
   role: "IT Support | Network Engineer | System Administrator",
 
   location: "East Jakarta, Indonesia",
