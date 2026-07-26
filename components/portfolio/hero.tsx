@@ -44,10 +44,8 @@ export function Hero() {
               <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
             </a>
             <a
-              href={profile.cvUrl || "/CV-MuAmmar Hannan Najib .pdf"}
-              download="CV-MuAmmar Hannan Najib .pdf"
-              target="_blank"
-              rel="noopener noreferrer"
+              href={profile.cvUrl || "/cv-muammar-hannan-najib.pdf"}
+              download={profile.cvFileName || "CV_MuAmmar_Hannan_Najib.pdf"}
               className="inline-flex items-center gap-2 rounded-full border border-border px-4 py-2.5 text-sm font-medium transition-colors hover:bg-secondary"
             >
               Download CV

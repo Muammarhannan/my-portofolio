@@ -8,7 +8,8 @@ export const profile = {
   whatsapp: "+6285817729217",
 
   avatar: "/portfolio/avatar.png",
-  cvUrl: "/CV_Mu'Ammar Hannan Najib.pdf",
+  cvUrl: "/cv-muammar-hannan-najib.pdf",
+  cvFileName: "CV_MuAmmar_Hannan_Najib.pdf",
 
   available: true,
 
