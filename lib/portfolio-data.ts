@@ -281,6 +281,22 @@ export const certifications: Certification[] = [
   description:
     "Awarded for research on an IoT and Machine Learning-based Automatic Irrigation System, recognizing innovation in developing a real-time, sensor-driven solution to improve irrigation efficiency and support data-driven agriculture.",
 },
+  {
+  name: "Certificate of Appreciation – Committee Member",
+  issuer: "Telkom University",
+  year: "2025",
+  image: "/portfolio/siap-sk-certificate.png",
+  description:
+    "Recognized for contributing as a committee member in the implementation of the SIAP SK (Certificate Request Administration Information System) community service program, supporting the digitalization of public services in Desa Ciasmara.",
+},
+{
+  name: "Teaching Assistant Certificate – Operating Systems",
+  issuer: "Faculty of Informatics, Telkom University",
+  year: "2025",
+  image: "/portfolio/teaching-assistant-certificate.png",
+  description:
+    "Recognized for serving as an Operating Systems Teaching Assistant with an A performance evaluation, supporting laboratory sessions and mentoring undergraduate students in the Information Technology program.",
+},
 ]
 
 export type SkillGroup = {
