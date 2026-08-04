@@ -137,6 +137,8 @@ export type Organization = {
 }
 
 export const experiences: Experience[] = [
+  
+  
   {
     role: "IT Support / Web Management Intern",
     company: "PT Telkom Indonesia (SOE Banking)",
@@ -315,72 +317,77 @@ export const certifications: Certification[] = [
 },
 ]
 
+export type SkillItem = {
+  name: string
+  level: number
+}
+
 export type SkillGroup = {
   category: string
-  items: string[]
+  items: SkillItem[]
 }
 
 export const skills: SkillGroup[] = [
   {
     category: "IT Support",
     items: [
-      "Hardware Troubleshooting",
-      "Software Troubleshooting",
-      "Windows Installation",
-      "Windows Server",
-      "Active Directory",
-      "End-User Support",
-      "Basic Linux",
+      { name: "Hardware Troubleshooting", level: 92 },
+      { name: "Software Troubleshooting", level: 90 },
+      { name: "Windows Installation", level: 88 },
+      { name: "Windows Server", level: 84 },
+      { name: "Active Directory", level: 80 },
+      { name: "End-User Support", level: 94 },
+      { name: "Basic Linux", level: 76 },
     ],
   },
 
   {
     category: "Networking",
     items: [
-      "LAN",
-      "VLAN",
-      "Inter-VLAN Routing",
-      "IP Addressing",
-      "Subnetting",
-      "DHCP",
-      "DNS",
-      "ACL",
-      "Basic OSPF",
-      "Internet Troubleshooting",
-      "CCTV Installation",
+      { name: "LAN", level: 92 },
+      { name: "VLAN", level: 90 },
+      { name: "Inter-VLAN Routing", level: 86 },
+      { name: "IP Addressing", level: 88 },
+      { name: "Subnetting", level: 84 },
+      { name: "DHCP", level: 82 },
+      { name: "DNS", level: 80 },
+      { name: "ACL", level: 78 },
+      { name: "Basic OSPF", level: 72 },
+      { name: "Internet Troubleshooting", level: 90 },
+      { name: "CCTV Installation", level: 78 },
     ],
   },
 
   {
     category: "Languages",
     items: [
-      "Indonesian",
-      "English",
+      { name: "Indonesian", level: 98 },
+      { name: "English", level: 82 },
     ],
   },
 
   {
     category: "Programming",
     items: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "PHP",
-      "Python (Basic)",
-      "Arduino Programming",
+      { name: "HTML", level: 84 },
+      { name: "CSS", level: 82 },
+      { name: "JavaScript", level: 78 },
+      { name: "PHP", level: 72 },
+      { name: "Python (Basic)", level: 70 },
+      { name: "Arduino Programming", level: 76 },
     ],
   },
 
   {
     category: "Tools & Technologies",
     items: [
-      "Cisco Packet Tracer",
-      "Windows Server",
-      "Visual Studio Code",
-      "Git & GitHub",
-      "Microsoft Office",
-      "Google Workspace",
-      "Arduino IDE",
+      { name: "Cisco Packet Tracer", level: 90 },
+      { name: "Windows Server", level: 84 },
+      { name: "Visual Studio Code", level: 88 },
+      { name: "Git & GitHub", level: 82 },
+      { name: "Microsoft Office", level: 92 },
+      { name: "Google Workspace", level: 88 },
+      { name: "Arduino IDE", level: 74 },
     ],
   },
 ]
