@@ -42,7 +42,7 @@ export const summary = {
       label: "Years",
     },
     {
-      value: "5",
+      value: "3",
       label: "Intern Experiences",
    },
   ],
@@ -185,22 +185,6 @@ export const experiences: Experience[] = [
       "Teaching",
     ],
   },
-
-  {
-    role: "Computer Technician Intern",
-    company: "CV Jaya Mandiri",
-    period: "Aug 2020 — Oct 2020",
-
-    description:
-      "Assembled and tested computer systems, installed and configured operating systems, performed hardware and software troubleshooting, installed CCTV systems, and configured internet and modem networks.",
-
-    tags: [
-      "Hardware",
-      "Troubleshooting",
-      "Networking",
-      "CCTV",
-    ],
-  },
 ]
 
 export const organizations: Organization[] = [
@@ -245,15 +229,17 @@ export type Education = {
   school: string
   period: string
   detail: string
+  image: string
 }
 
 export const education: Education[] = [
-    {
+  {
     degree: "Bachelor of Information Technology",
     school: "Telkom University",
     period: "2022 — 2026",
     detail:
       "Graduated in 3.5 years with a GPA of 3.89. Focused on Computer Networks, System Administration, IT Infrastructure, Internet of Things (IoT), and Software Development through academic projects and practical laboratory work.",
+    image: "/portfolio/diploma-placeholder.svg",
   },
 
   {
@@ -262,6 +248,7 @@ export const education: Education[] = [
     period: "2019 — 2022",
     detail:
       "Built a strong foundation in computer hardware, operating systems, LAN networking, network configuration, device maintenance, and technical troubleshooting through classroom learning and hands-on practice.",
+    image: "/portfolio/diploma-placeholder.svg",
   },
 ]
 
