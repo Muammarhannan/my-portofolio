@@ -7,20 +7,37 @@ import { Education } from "@/components/portfolio/education"
 import { Certifications } from "@/components/portfolio/certifications"
 import { Skills } from "@/components/portfolio/skills"
 import { Footer } from "@/components/portfolio/footer"
+import { ScrollReveal } from "@/components/portfolio/scroll-reveal"
 
 export default function Page() {
   return (
     <div id="top" className="min-h-screen bg-background text-foreground">
       <Nav />
       <main className="mx-auto max-w-5xl px-6">
-        <Hero />
-        <Projects />
-        <Experience />
-        <Organizations />
-        <Education />
-        <Certifications />
-        <Skills />
-        <Footer />
+        <ScrollReveal>
+          <Hero />
+        </ScrollReveal>
+        <ScrollReveal>
+          <Projects />
+        </ScrollReveal>
+        <ScrollReveal>
+          <Experience />
+        </ScrollReveal>
+        <ScrollReveal>
+          <Organizations />
+        </ScrollReveal>
+        <ScrollReveal>
+          <Education />
+        </ScrollReveal>
+        <ScrollReveal>
+          <Certifications />
+        </ScrollReveal>
+        <ScrollReveal>
+          <Skills />
+        </ScrollReveal>
+        <ScrollReveal>
+          <Footer />
+        </ScrollReveal>
       </main>
     </div>
   )

@@ -38,7 +38,7 @@ export function Hero() {
           <div className="mt-8 flex flex-wrap items-center gap-3">
             <a
               href="#projects"
-              className="inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90"
+              className="inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground shadow-sm transition-all hover:-translate-y-0.5 hover:opacity-90"
             >
               Lihat proyek
               <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
@@ -46,7 +46,7 @@ export function Hero() {
             <a
               href={profile.cvUrl || "/cv-muammar-hannan-najib.pdf"}
               download={profile.cvFileName || "CV_MuAmmar_Hannan_Najib.pdf"}
-              className="inline-flex items-center gap-2 rounded-full border border-border px-4 py-2.5 text-sm font-medium transition-colors hover:bg-secondary"
+              className="inline-flex items-center gap-2 rounded-full border border-border bg-background/70 px-4 py-2.5 text-sm font-medium transition-all hover:-translate-y-0.5 hover:bg-secondary"
             >
               Download CV
               <Download className="h-4 w-4" aria-hidden="true" />
@@ -57,7 +57,7 @@ export function Hero() {
                 href={s.href}
                 target="_blank"
                 rel="noreferrer"
-                className="rounded-full border border-border px-4 py-2.5 text-sm font-medium transition-colors hover:bg-secondary"
+                className="rounded-full border border-border bg-background/70 px-4 py-2.5 text-sm font-medium transition-all hover:-translate-y-0.5 hover:bg-secondary"
               >
                 {s.label}
               </a>
