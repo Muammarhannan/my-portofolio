@@ -185,7 +185,7 @@ export const experiences: Experience[] = [
       "Teaching",
     ],
   },
-  
+
   {
     role: "Computer Technician Intern",
     company: "CV Jaya Mandiri",
@@ -312,19 +312,6 @@ export type SkillGroup = {
 
 export const skills: SkillGroup[] = [
   {
-    category: "IT Support",
-    items: [
-      { name: "Hardware Troubleshooting", level: 92 },
-      { name: "Software Troubleshooting", level: 90 },
-      { name: "Windows Installation", level: 88 },
-      { name: "Windows Server", level: 84 },
-      { name: "Active Directory", level: 80 },
-      { name: "End-User Support", level: 94 },
-      { name: "Basic Linux", level: 76 },
-    ],
-  },
-
-  {
     category: "Networking",
     items: [
       { name: "LAN", level: 92 },
@@ -350,27 +337,13 @@ export const skills: SkillGroup[] = [
   },
 
   {
-    category: "Programming",
+    category: "Server",
     items: [
-      { name: "HTML", level: 84 },
-      { name: "CSS", level: 82 },
-      { name: "JavaScript", level: 78 },
-      { name: "PHP", level: 72 },
-      { name: "Python (Basic)", level: 70 },
-      { name: "Arduino Programming", level: 76 },
-    ],
-  },
-
-  {
-    category: "Tools & Technologies",
-    items: [
-      { name: "Cisco Packet Tracer", level: 90 },
       { name: "Windows Server", level: 84 },
-      { name: "Visual Studio Code", level: 88 },
-      { name: "Git & GitHub", level: 82 },
-      { name: "Microsoft Office", level: 92 },
-      { name: "Google Workspace", level: 88 },
-      { name: "Arduino IDE", level: 74 },
+      { name: "Active Directory", level: 80 },
+      { name: "Basic Linux", level: 76 },
+      { name: "Server Administration", level: 78 },
+      { name: "System Maintenance", level: 82 },
     ],
   },
 ]
