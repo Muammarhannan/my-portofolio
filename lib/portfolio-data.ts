@@ -42,9 +42,9 @@ export const summary = {
       label: "Years",
     },
     {
-      value: "4",
+      value: "5",
       label: "Intern Experiences",
-    },
+   },
   ],
 }
 
@@ -182,6 +182,22 @@ export const experiences: Experience[] = [
       "LAN",
       "IT Support",
       "Documentation",
+    ],
+  },
+
+  {
+    role: "IT Support Intern",
+    company: "PT. Sahabat Mikro Fintek",
+    period: "Aug 2026 — Feb 2027",
+
+    description:
+      "Supported daily IT operations by assisting with technical support, system maintenance, and operational tasks to ensure smooth business technology services during a six-month internship period.",
+
+    tags: [
+      "IT Support",
+      "Technical Support",
+      "System Maintenance",
+      "Internship",
     ],
   },
 
@@ -332,6 +348,14 @@ export const skills: SkillGroup[] = [
       "Basic OSPF",
       "Internet Troubleshooting",
       "CCTV Installation",
+    ],
+  },
+
+  {
+    category: "Languages",
+    items: [
+      "Indonesian",
+      "English",
     ],
   },
 
