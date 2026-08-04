@@ -138,7 +138,22 @@ export type Organization = {
 
 export const experiences: Experience[] = [
   
-  
+  {
+    role: "IT Support Intern",
+    company: "PT. Sahabat Mikro Fintek",
+    period: "Aug 2026 — Feb 2027",
+
+    description:
+      "Supported daily IT operations by assisting with technical support, system maintenance, and operational tasks to ensure smooth business technology services during a six-month internship period.",
+
+    tags: [
+      "IT Support",
+      "Technical Support",
+      "System Maintenance",
+      "Internship",
+    ],
+  },
+
   {
     role: "IT Support / Web Management Intern",
     company: "PT Telkom Indonesia (SOE Banking)",
@@ -170,39 +185,7 @@ export const experiences: Experience[] = [
       "Teaching",
     ],
   },
-
-  {
-    role: "Administrative Intern",
-    company: "SMA/SMK Pemda Langkat Bohorok",
-    period: "Feb 2026 — Apr 2026",
-
-    description:
-      "Managed student administrative records, maintained school documentation, and assisted with LAN network configuration for computer-based examinations.",
-
-    tags: [
-      "Administration",
-      "LAN",
-      "IT Support",
-      "Documentation",
-    ],
-  },
-
-  {
-    role: "IT Support Intern",
-    company: "PT. Sahabat Mikro Fintek",
-    period: "Aug 2026 — Feb 2027",
-
-    description:
-      "Supported daily IT operations by assisting with technical support, system maintenance, and operational tasks to ensure smooth business technology services during a six-month internship period.",
-
-    tags: [
-      "IT Support",
-      "Technical Support",
-      "System Maintenance",
-      "Internship",
-    ],
-  },
-
+  
   {
     role: "Computer Technician Intern",
     company: "CV Jaya Mandiri",
